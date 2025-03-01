@@ -1,0 +1,42 @@
+.row
+  display: grid
+  grid-template-columns: 6fr 1fr 1fr 2fr 1fr
+  align-items: center
+  color: #999999
+  font-weight: 500
+  text-transform: uppercase
+  font-size: 11px
+  gap: 10px
+.test
+  border-radius: 3px
+  position: relative
+  overflow: hidden
+  padding: 20px 12px 20px 15px
+  margin-bottom: 5px
+  background: #fff
+  cursor: pointer
+  transition: all 0.3s ease-in-out
+  &:last-child
+    margin-bottom: 0
+  &:hover
+    box-shadow: 0 0 20px rgba(#000, 0.15)
+  &__leftPlank
+    width: 4px
+    height: 100%
+    position: absolute
+    z-index: 3
+    top: 0
+    left: 0
+  &__name
+    font-size: 13px
+    font-weight: 500
+    color: #474747
+  &__type
+    font-size: 12px
+    color: #5C5C5C
+  &__status
+    font-size: 12px
+    font-weight: 500
+  &__site
+    font-size: 12px
+    color: #5C5C5C
